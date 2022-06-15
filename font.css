@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(Mojangles.ttf);
+    background-color: aliceblue;
+}
+
+.dimension_picker {
+    right: 8px;
+    position: absolute;
+    z-index: 1;
+    /* margin-left: 93.8%; */
+    margin-top: 41px;
+    background-color: white;
+    padding: 0px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.dimension_div {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.dimension_div p{
+    margin: 0px 0px 0px 5px;
+    display: none;
+}
+.dimension_icon {
+    margin: 2.5px 3px 2.5px 3px;
+    width: 30px;
+    height: 30px;
+
+}
+.last {
+    margin-bottom: 0px;
+}
+.dimension_div:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+}
